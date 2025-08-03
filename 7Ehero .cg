@@ -1,0 +1,170 @@
+[Mouse]
+Mouse_1=(([0f]>[ff])-Sensi)>@
+Sensi=2%
+Mouse_1=Mouse_2
+return 1
+
+[Volume_1]
+Volume_1=(4+Volume_1)*maX | ([8f],[f8]) | (128) | (100%,25%,50%,25%,100%)
+maX=1.2
+return 1
+
+[fxxl_1]; /*Hallo*/
+p0=3.6; /*cpu*/
+p1=(p0+100%); /*runnung speed*/
+p2=100%; /*Dead_AI*/
+6.2+((p3|(9)*7,p4|(7)*7,p5|(5)*7,p6|(3)*7,p7|(1)*7))*600
+return Halo
+
+[fxxl_2]; /*HalloVR*/
+p0=3.6; /*cpu*/ 
+p1=(p0+100%); /*runnung speed*/
+p2=100%; /*Dead_AI*/
+1.7+((p3|(9)*7,p4|(7)*7,p5|(5)*7,p6|(3)*7,p7|(1)*7))*Size
+return HaloVR
+
+[Speed]
+Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files)
+return 1
+
+[SFKnights]
+Amunition=?|100%
+Player=?|@<100%
+return 1
+
+[SFKnightsGodMode]
+Amunition=?|100%
+Player=?|100%
+return 0
+
+[SFKnightsAngelMode]
+Amunition=@|100%
+Player=@|100%
+return 0
+
+[Recoil_Gun]/*Socom_Navy_Seals*/
+m0=00000
+m1=00100
+m2=00100
+m3=00100
+m4=00000
+return 1
+
+[Recoil_Gun]/*Gangster*/
+m0=00100
+m1=00100
+m2=00100
+m3=00100
+m4=00000
+return 0
+
+[Light]
+Light=(0>1),(1>2)
+return 1
+
+[maverix]
+matrix=float 4*10(White,Black,Grey,Red,Yellow,Green,Tea,Blue,Pink,Purple)
+White=(255,255,255,271)
+Black=(0,0,0,271)
+Grey=(100,100,100,271)
+Red=(271,0,0,271)
+Yellow=(271,271,0,271)
+Ggreen=(0,271,0,271)
+Tea=(0,271,271,271)
+Blue=(0,0,271,271)
+Pink=(271,25,271,271)
+Purple=(200,25,200,271)
+return 1
+
+[smaa]
+p0=3.6;
+p1=(p0+100%);
+p2=0.79;
+p3=4.5;
+p4=9.7;//max dangerous 
+sxxl=(p0,p1,p2,p3,p4);//differ performance 
+return SM
+
+[Enhance3D]
+Enhance3D=(Quality_Performance)/((Enhance3D)-3%)+100%)*(100%);//Dangerouse
+V0=(([8f],[f8])>[ff])>@
+V1=2
+V2=(V1\(V1-V0),(V1+V0)/V1)|(monitor_1),(monitor_2)
+V3=((2%-V2)+100%)
+return 1
+
+[FOV_range]
+range=30;
+return 1
+
+[DPI_pixle]
+pixle=100%;
+return 1
+
+[FPS_amount]
+amount=100%;
+return 1
+
+[contrast_bright]
+bright=100%>10%;//safer
+return 1
+
+[brightness_light]
+light=100%>10%;//safer
+return 1
+
+[cue_cue1]
+cue1=100%;
+return 1
+
+[hue_hue1] 
+hue1=100%;
+return 1
+
+[VR_Spoof]
+VR_Spoof=(sqmapi.dll<0x00)
+return 1
+
+[download_upload_speed]
+speed=100%;
+return 1
+
+[response_code]
+code=91.2%;
+return 1
+
+[zip7]
+zip7=([ff]×[0a])/175|(./[ff])*;
+return 1
+  
+[Battery]
+Battery_Charger=(2.7%<97.7%)>@
+return 1
+
+[Element_Dream1];//TexHex
+Element_Dream1=(wifi_Bluetooth_Radio_0x8f,0xf8)|)@(|(?<@)|(1/4\1)%
+return 0
+
+[Element_Dream2];//TexBinary
+Element_Dream2=(wifi_Bluetooth_Radio_0x11110000,0x00001111)|)@(|(?<@)|(1/4\1)%
+return 0
+
+[Microphone_Mic]
+Mic=(1.2+(Mic))*maX | ([8f],[f8]) | (128) | (base_600%,mid_20%,treble_10%) | (base_1_10%,mid_2_20%,treble_3_100%)
+maX=2.2
+return 1
+
+Wifi_Radio_Signal_BlueTooth_SOS];/*WAM_Virus*/
+Ehack=((<@>?)|!)>225%([0x31]&[0x32]&[0x31](,,,,)*Seconds)
+Seconds=2
+return 0
+
+[Wifi_Name_Code]
+Name=Hello
+Password=
+return WifiMode
+
+[wifi:signal_Skynet]
+Skynet=[0x00]>)!(
+return WifiOffOn
+
