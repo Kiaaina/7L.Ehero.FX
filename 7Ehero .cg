@@ -28,12 +28,12 @@ Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files)
 return 1
 
 [SFKnights]
-Amunition=?|100%
-Player=?|@<100%
+Amunition=@|100%
+Player=@|?|!<100%
 return 1
 
 [SFKnightsGodMode]
-Amunition=?|100%
+Amunition=@|100%
 Player=?|100%
 return 0
 
@@ -153,4 +153,5 @@ return 0
 Mic=(1.2+(Mic))*maX | ([8f],[f8]) | (128) | (base_600%,mid_20%,treble_10%) | (base_1_10%,mid_2_20%,treble_3_100%)
 maX=2.2
 return 1
+
 
