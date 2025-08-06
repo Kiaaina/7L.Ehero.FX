@@ -154,17 +154,3 @@ Mic=(1.2+(Mic))*maX | ([8f],[f8]) | (128) | (base_600%,mid_20%,treble_10%) | (ba
 maX=2.2
 return 1
 
-Wifi_Radio_Signal_BlueTooth_SOS];/*WAM_Virus*/
-Ehack=((<@>?)|!)>225%([0x31]&[0x32]&[0x31](,,,,)*Seconds)
-Seconds=2
-return 0
-
-[Wifi_Name_Code]
-Name=Hello
-Password=
-return WifiMode
-
-[wifi:signal_Skynet]
-Skynet=[0x00]>)!(
-return WifiOffOn
-
