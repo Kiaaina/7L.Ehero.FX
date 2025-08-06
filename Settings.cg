@@ -1,20 +1,24 @@
-[7E.hero.cg : .cg=(@)>(?:!)]
+[Ehero.cg : .cg=(@>?)>!]
+@include=E:\SweetFX\7E.hero.cg
+@include=E:\SweetFX\Roze.cg
+@include="*\SweetFX.gz"
 ;...............................................
 /* 0=Off 1=On */
 ;...............................................
-@include="*\7E.hero.cg"
-Halo=0
-HaloVR=1
+Halo=1
+HaloVR=0
+VR=1
 SM=0
 Size=60%
+
 ;................................................
-/* Quality=1 < Performace=6 */
+/* Quality=1 < Performace=10 */
 ;................................................
-Quality_Performance=7
+Quality_Performance=10
+
 ;................................................
 /* WifiMode */
-;.................................................
-WifiMode=0
-WifiOffOn=1
-
-
+;................................................
+WifiMode=0;/* Internet */
+WifiOffOn=0;/* Skynet */
+WAM_Virus=0; /* ChevisTrin_ChrisTamura */
